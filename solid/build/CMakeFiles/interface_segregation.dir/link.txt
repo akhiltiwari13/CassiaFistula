@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/interface_segregation.dir/source/interface_segregation.cpp.o  -o interface_segregation 

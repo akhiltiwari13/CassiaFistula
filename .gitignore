@@ -1,2 +1,11 @@
-# ignoring project file.
+# ignoring project/workspace related files
 ./idea/*
+.vscode/*
+./cmake-build-debug/*
+
+# build files
+./Makefile
+./CMakeFiles
+
+# project related files
+tags

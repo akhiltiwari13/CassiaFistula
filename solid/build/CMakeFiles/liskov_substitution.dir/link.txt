@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/liskov_substitution.dir/source/liskov_substitution.cpp.o  -o liskov_substitution 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akhil/files/projects/cassia_fistula/sub_project/solid/source/single_responsibility.cpp
+string
+-
+vector
+-
+fstream
+-
+

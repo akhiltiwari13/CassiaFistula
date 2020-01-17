@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/dependency_inversion.dir/source/dependency_inversion.cpp.o  -o dependency_inversion 
