@@ -7,5 +7,6 @@ MESSAGE(STATUS "***CASSIA FISTULA*** ${PROJECT_SOURCE_DIR}")
 
 add_subdirectory(SOLID)
 add_subdirectory(DesignPatterns)
+add_subdirectory(LLD)
 
 MESSAGE(STATUS "***CASSIA FISTULA CONFIGURATION COMPLETE***")
