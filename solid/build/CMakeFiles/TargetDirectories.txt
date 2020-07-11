@@ -1,7 +1,0 @@
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/rebuild_cache.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/single_responsibility.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/open_close.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/interface_segregation.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/dependency_inversion.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/liskov_substitution.dir
-/home/akhil/files/projects/cassia_fistula/sub_project/solid/build/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/single_responsibility.dir/source/single_responsibility.cpp.o  -o single_responsibility 

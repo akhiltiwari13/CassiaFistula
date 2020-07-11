@@ -1,13 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 project(CASSIA_FISTULA)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-MESSAGE(STATUS "***CASSIA FISTULA*** ${PROJECT_SOURCE_DIR}") 
+MESSAGE(STATUS "***CASSIA FISTULA*** ${PROJECT_SOURCE_DIR}")
 
-add_subdirectory(solid)
-add_subdirectory(builder_pattern)
-add_subdirectory(graph_impl)
+add_subdirectory(SOLID)
+add_subdirectory(DesignPatterns)
 
 MESSAGE(STATUS "***CASSIA FISTULA CONFIGURATION COMPLETE***")
-

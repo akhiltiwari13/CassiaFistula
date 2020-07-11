@@ -9,3 +9,6 @@
 
 # project related files
 tags
+build/*
+.ccls-cache/*
+compile-commands.json
