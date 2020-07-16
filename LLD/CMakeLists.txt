@@ -6,4 +6,4 @@ project (LLD)
 add_executable( bookStore bookStore.cpp)
 
 
-target_include_directories(bookStore PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
+target_include_directories(bookStore PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")

@@ -28,6 +28,8 @@ private:
 struct BookSearchParam {
   uint16_t id;
   std::string bookName;
+  std::string authorName; //@added, FindBookRequest should only have fields
+                          // which are also present in BookSearchParam.
 };
 
 // global function to fetch data from records.
@@ -49,9 +51,28 @@ struct FindBookResponse {
   uint16_t cabinet;
 };
 
+BookSearchParam formBookSearchParam(const FindBookRequest &param) {
+  BookSearchParam result;
+  if (!param.bookName.empty())
+    result.bookName = param.bookName;
+  if (!param.authorName.empty())
+    result.authorName = param.authorName;
+
+  return result;
+}
+
 vector<FindBookResponse> findBook(const FindBookRequest &param) {
   vector<FindBookResponse> apiSearchResult;
   // search logic?
+  BookSearchParam bsParam = formBookSearchParam(param);
+  auto bookSearchResultSet = getBookData(bsParam);
+
+  for (auto book : bookSearchResultSet) {
+    FindBookResponse bookLocation;
+    bookLocation.cabinet = book.getCabinet();
+    bookLocation.shelf = book.getShelf();
+    apiSearchResult.push_back(bookLocation);
+  }
 
   return apiSearchResult;
 }
