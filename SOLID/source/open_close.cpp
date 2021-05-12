@@ -1,13 +1,3 @@
-/*
- * Copyright (C) Edelweiss Securities Ltd., - All Rights Reserved.
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- * 
- * File:   open_close_principal.cpp
- * Author: Akhil Tiwari <akhil.tiwari@edelweissfin.com>.
- * Created on 11 June, 2019, 3:20 PM.
- */
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -162,7 +152,7 @@ struct BetterProductFilter : IFilter<Product>
 
 struct ColorSpecification : ISpecification<Product>
 {
-  Color color;
+ Color color;
 
   ColorSpecification(const Color c) : color{c}
   {

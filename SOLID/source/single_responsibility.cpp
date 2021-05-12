@@ -1,13 +1,3 @@
-/*
- * Copyright (C) Edelweiss Securities Ltd., - All Rights Reserved.
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- * 
- * File:   single_responsibility.cpp
- * Author: Akhil Tiwari <akhil.tiwari@edelweissfin.com>.
- * Created on 11 June, 2019, 1:54 PM.
- */
-
 #include <string>
 #include <vector>
 #include <fstream>

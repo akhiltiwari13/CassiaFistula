@@ -1,14 +1,14 @@
 # ignoring project/workspace related files
 ./idea/*
 .vscode/*
-./cmake-build-debug/*
+.souretrail/*
 
 # build files
-./Makefile
-./CMakeFiles
+build/*
 
 # project related files
+.cache/
 tags
-build/*
-.ccls-cache/*
-compile-commands.json
+compile_commands.json
+Session.vim
+

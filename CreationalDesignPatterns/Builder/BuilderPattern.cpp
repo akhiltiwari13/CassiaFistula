@@ -10,6 +10,7 @@
  */
 
 // for representing html tags.
+ /* strcuture to be Built. */
 struct HtmlElement {
   std::string name;
   std::string text;

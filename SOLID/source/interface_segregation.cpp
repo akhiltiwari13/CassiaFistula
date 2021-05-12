@@ -1,15 +1,5 @@
 /*
- * Copyright (C) Edelweiss Securities Ltd., - All Rights Reserved.
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- * 
- * File:   interface_segregation.cpp
- * Author: Akhil Tiwari <akhil.tiwari@edelweissfin.com>.
- * Created on 13 June, 2019, 3:25 PM.
- */
-
-/*
- * INTERFACE SEGREGATION- No client should be forced to depend on methods (member function) it does not use.
+ * INTERFACE SEGREGATION- Clients should not be forced to depend on functions that it does not use.
  */
 
 #include <iostream>
@@ -34,7 +24,8 @@ struct MFP : IMachine //multi-functional peripherals..
 
 // All of the 3 services i.e fax, print & scan.
 
-//These functionalities should be segregated in different interfaces. OR a DECORATOR should be used.
+/* These functionalities should be segregated in different interfaces. */
+/* when multiple interfaces are required, a new interface can be created using multiple inheritance and a (concrete class) DECORATOR can be used. */
 
 /**
  * @brief for testing the design pattern.
@@ -42,5 +33,5 @@ struct MFP : IMachine //multi-functional peripherals..
  */
 int main()
 {
-
+return 0;
 }
