@@ -1,3 +1,0 @@
-[submodule "loki"]
-	path = loki
-	url = git@github.com:akhiltiwari13/loki-lib.git
