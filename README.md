@@ -10,7 +10,7 @@ First things first, the project is named after a leaf, because of my fond memori
 - This project requires the following programs for it's functioning.
 1. CMake (Version 3.14 and above)
 2. GNU C++ Compiler (Version 7.4), This project was built on ubuntu 18.04 using the said compiler version.
-3. 3rd Party Libraries ==> boost::DI | boost::program option. 
+3. 3rd Party Libraries ==> boost::DI | boost::program option.
 
 
 ## Setup step
