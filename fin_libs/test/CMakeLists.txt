@@ -1,0 +1,1 @@
+add_executable(simp_intrst_test)
