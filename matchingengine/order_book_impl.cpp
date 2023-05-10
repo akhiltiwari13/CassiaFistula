@@ -41,8 +41,8 @@ public:
                         order.quantity -= it2->quantity;
                         it2 = orders.erase(it2);
                     } else {
-                        matchedOrders.push_back({ it2->id, it2->side, it2->price, order.quantity, it2->timestamp });
-                        it2->quantity -= order.quantity;
+                    matchedOrders.push_back({ it2->id, it2->side, it2->price, order.quantity, it2->timestamp });
+                    it2->quantity -= order.quantity;
                         order.quantity = 0;
                         break;
                     }
