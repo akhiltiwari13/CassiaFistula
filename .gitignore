@@ -8,6 +8,7 @@ build/*
 
 # project related files
 .cache/
+.ccls-cache/
 tags
 compile_commands.json
 Session.vim
